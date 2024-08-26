@@ -1,0 +1,13 @@
+#include <algorithm> 
+#include <iostream> 
+int main()
+{
+    std::string c;
+    while(std::cin>>c)
+    {
+        std::cout<<c<<" ";
+        reverse(c.begin(),c.end());
+        std::cout<<c<<' ';
+    }
+    return 0;
+}
